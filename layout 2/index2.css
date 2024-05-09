@@ -1,0 +1,83 @@
+
+*,
+*::before,
+*::after {
+     
+    box-sizing: border-box; 
+}
+
+body {
+    width: 750px;
+    background-color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+header, nav, main, aside, footer {
+    width: 100%;
+}
+
+header {
+    height: 250px;
+    display: flex;
+}
+
+.banner {
+    background-color: white;
+    width: 500px;
+    height: 100%;
+    text-align: center;
+    border: 5px solid;
+}
+
+h2 {
+    margin-top: 100px;
+}
+
+
+.logo {
+    background-color: #ffffff;
+    flex-grow: 1;
+    height: 100%;
+    text-align: center;
+    border: 5px solid;
+}
+
+nav {
+    background-color: greenyellow;
+    height: 50px;
+    border: 5px solid ;
+}
+
+main {
+    display: flex;
+    height: 400px;
+}
+
+p {
+    margin-top: 180px;
+    font-size: 25px;
+}
+
+article {
+    background-color: white;
+    width: 450px;
+    border: 5px solid;
+    height: 100%;
+    text-align: center;
+    
+}
+
+aside {
+    background-color: white;
+    height: 100%;
+    text-align: center;
+    border: 5px solid;
+    width: 300px;
+}
+
+footer {
+    background-color: yellow;
+    height: 50px;
+    border: 7px solid;
+}
